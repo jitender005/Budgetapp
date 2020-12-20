@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>budget app</title>
+	<link rel="stylesheet" type="text/css" href="budgetapp.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+</head>
+<body>
+<div class="main_container">
+	<div class="first_container">
+		<h2>BUDGET APP</h2>
+		<div id="available_budget">
+			<h1 id="budgetshow_div">+0.00</h1>
+		</div>
+		<div class="income_field">
+			<div id="income">
+			<div  id="para1">INCOME</div>
+			<div id="income_amount">+0.00</div>
+			</div>
+		</div>
+		<div class="expense_field">
+			<div id="expense">
+			<div id="para2">EXPENSE</div>
+			<div id="expense_amount">+0.00</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="second_container">
+		<div id="description_field">
+			<select id="type">
+  <option  id="sign"  value="inc">+</option>
+  <option  id="minus" value="exp">-</option>
+ </select>
+ <input  id="des_input" type="text" name="text"  placeholder="description">
+ <input     id="des_amount"   type="number" name="amount"  placeholder="amount">
+ <button id="select"></button>
+		</div>
+		<div class="second_inner">
+			<div class="income_show">
+				<h3  id="blue">INCOME</h3>
+				<div id="list1">
+					<div id="incom">website project</div>
+					<div id="incom_amount">amount</div>
+					
+				</div>
+			</div>
+			<div class="expense_show">
+				<h3 id="red">EXPENSE</h3>
+				<div id="list2">
+					<div id="expen">website project</div>
+					<div id="expen_amount">expense</div>
+				</div>
+			</div>
+			<div class="income_show"></div>
+			<div class="expense_show"></div>
+		
+		</div>
+	</div>
+</div>
+
+</body>
+<script type="text/javascript" src="budgetapp.js"></script>
+</html>

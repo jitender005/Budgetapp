@@ -1,0 +1,195 @@
+.main_container{
+    width: 1329px;
+    height: 800px;
+    
+}
+.first_container{
+    width: 1329px;
+    height: 400px;
+    box-shadow: 0px -3px 13px 3px #656;
+    background-image: linear-gradient(to right,white,#5fead7,white);
+    background-size: 1329px;
+    background-position: center;
+}
+.second_container{
+    width: 1329px;
+    height: 394px;
+    
+    background-color: white;
+    background-blend-mode: lighten;
+}
+h2{
+    text-align: center;
+    color:  white;
+    font-size: 35px;
+    opacity:0.8;
+    text-shadow: 1px 2px 2px 3px white;
+    font-weight: 100;
+}
+body{
+    font-family: 'Roboto';
+    
+}
+
+
+#income{
+    color: white;
+    width: 240px;
+    height: 20px;
+    margin-left: 6px;
+    display: flex;
+    align-items: center;
+
+    
+}
+#income_amount{
+    margin-left: 130px;
+    }
+#expense{
+    color: white;
+    width: 240px;
+    height: 20px;
+    margin-left: 6px;
+    display: flex;
+    align-items: center;
+}
+#expense_amount{
+        margin-left: 122px;
+}
+.income_field{
+width: 250px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.5;
+    margin-left: 539px;
+    margin-top: 191px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.expense_field{
+width: 250px;
+    height: 50px;
+    background-color: black;
+opacity: 0.5;
+margin-left: 539px;
+    margin-top: 19px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+#para1{
+    color:  white;
+    }
+#para2{
+    color:  white;
+    }
+#available_budget{
+    width: 300px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    left: 522px;
+    border-radius: 15px;
+    top: 130px;
+    
+}
+#budgetshow_div{
+    color: white;
+    font-size: 40px;
+    margin-left: 86px;
+    margin-top: 13px;
+}
+span#budget_sign {
+    margin-right: 29px;
+}
+#description_field{
+    width: 1329px;
+    height: 100px;
+    background-color: #dedeb3;
+    box-shadow: 0px 7px 13px 3px #656;
+}
+#type{
+    margin-left: 235px;
+    width: 82px;
+    height: 57px;
+    margin-top: 26px;
+    border-radius: 13px;
+    border:none;
+}
+
+input#des_amount {
+   width: 141px;
+    height: 56px;
+    padding-left: 6px;
+    border-radius: 13px;
+    border: none;
+    font-size: 19px;
+}
+.second_inner{
+    display: flex;
+}
+
+.expense_show {
+    margin-left: 297px;
+}
+.income_show {
+    margin-left: 163px;
+}
+#list1 {
+    width: 353px;
+    height: 50px;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    display: flex;
+}
+#list2 {
+ width: 353px;
+    height: 50px;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    display: flex;  
+}
+#incom {
+    padding-left: 10px;
+}
+#incom_amount {
+   margin-left: 167px;
+}
+#expen {
+    margin-left: 9px;
+}
+#expen_amount {
+   
+   margin-left: 166px;  
+    
+}
+#select{
+    background-image: url(tick1.jpg);
+    width: 61px;
+    height: 57px;
+    background-size: cover;
+    border-radius: 104px;
+    position: absolute;
+    top: 454px;
+    left: 1124px;
+    border:none;
+
+}
+input#des_input {
+    width: 612px;
+    height: 41px;
+    padding: 6px;
+    border-radius: 13px;
+    border: none;
+    font-size: 19px;
+}
+#blue{
+     color: blue;
+}
+#red{
+    color: red;
+}
